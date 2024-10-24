@@ -1,0 +1,55 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #dadada;
+   
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(0% , -50%) ;
+    width: 50%;
+    height: 90%;
+    /* background-color: red; */
+  
+}
+.image-container{
+    overflow: hidden;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+}
+img{
+     width: 800px;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#one{
+width: 0%;
+}
+.text{
+    overflow: hidden;
+    position: absolute;
+    bottom: 15%;
+    left: -10%;
+    width: 400px;
+    height: 100px;
+/* background-color: yellow; */
+    z-index: 999;
+
+}
+.text h1{
+    top: 100%;
+    position: absolute;
+    font-size: 60px;
+}
+/* .nav img{
+    width: 1500px;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
